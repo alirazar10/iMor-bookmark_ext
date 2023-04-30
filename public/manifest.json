@@ -1,0 +1,45 @@
+{
+  "name": "iMor bookmark",
+  "description": "iMor bookmarking Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsvrjcie5baUg38KOy4orW7lKFbw93T8pdmmQQNyN0FBCUqp/lotIiX2PvEUshOpmhZHNQTo1/55kp/TW/CiCpErkY1JLOsgyA83KIWszS78ANMugz5k/L9mIet2jtu+dJ1+17OvZOZd0o+4Zkyc+ztgJL6S/ViKJ1O9cCzxjTUXXAmqw5MA71ZH/gyrTiwlQZOcv66y+Y0GaydmqZFq4Iy12CGhA9U9mvBjUv4jPoqoW/qoJkK56HyDe4aVU84+P5jJ3jDp0HyKI1SVjo6ZvyvXVEqcFvCu9kDkL+mJSAcCFSJDz57YcBE02BuKJZhHJMxtIaFY9Y5ShyjZZg+SCGwIDAQAB",
+   "oauth2": {
+    "client_id": "318840075254-7gehqn65jresfh8g6u77611h6mhj68cv.apps.googleusercontent.com",
+    "scopes":[
+      "profile email"
+    ]
+  },
+  "background": {
+    "service_worker": "./serviceworker/background.js"
+  },
+  "host_permissions": [
+    "*://*.iamali.vercel.app//*"
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "identity",
+    "identity.email",
+    "cookies",
+    "storage"
+    
+  ],
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "./icons/icon16.png",
+      "32": "./icons/icon32.png",
+      "48": "./icons/icon48.png",
+      "128": "./icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "./icons/icon16.png",
+    "32": "./icons/icon32.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  }
+}

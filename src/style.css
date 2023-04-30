@@ -1,0 +1,103 @@
+body{
+    height: 398px;
+    width: 452px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#app-root{
+    height: 100%;
+    width: 100%;
+}
+.bg-color{
+    background-color: #FBF7F7;
+
+}
+.header-container .logo{
+    /* width: 2rem; */
+    
+}
+.header-container  .logo img{
+    height: 2rem;
+    width: auto;
+}
+
+.main-container .url h4{
+    font-size: 1.2rem;
+    color: #707070;
+}
+
+.main-container .border-radius{
+    border-radius: 7px;
+}
+.main-container .tags .badge{
+    background: #0099ff59;
+    color: #9F9F9F;
+    font-style: italic;
+    font-size: .9rem;
+    font-weight: 400;
+} 
+
+.footer-container .library a span{
+    font-size: 1.2rem;
+}
+
+.footer-container .direct-share span{
+    font-size: 0.7;
+    font-style: italic;
+    text-decoration: underline;
+}
+.footer-container .bookmark button{
+    background: #0099FF !important;
+    color: #ffffff;
+    border-radius: 7px !important;
+}
+
+
+.tagArea {
+    display: block;
+}
+.tagArea__displayArea {
+    display: inline-block;
+}
+.tagArea__input {
+    
+    
+    
+}
+.tagComponent {
+    /* display: flex; */
+    background: #0099ff59;
+    color: #9F9F9F;
+    font-style: italic;
+    font-size: .9rem;
+    font-weight: 400;
+}
+.tagComponent:not(:first-child) {
+    margin-left: 0.6rem;
+}
+.tagComponent__text {
+    color: white;
+    font-size: 0.9rem;
+    float: left;
+}
+.tagComponent__close {
+    width: 15px;
+    margin-left: 0.5rem;
+    font-size: 0.7rem;
+    padding:2px 3px 3px 3px;
+    border-radius: 50%;
+    color: #0099ff59;
+    font-style: normal;
+    float: right;
+
+}
+.tagComponent__close:hover {
+    cursor: pointer;
+}
+
+
+.spinner-border{
+    order: 0.24rem solid 0099FF !important ;
+    height: 1.4rem;
+    width: 1.4rem;
+}
